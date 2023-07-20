@@ -1,0 +1,127 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 49f8997a-b4c8-4f0c-aad1-dba88338780e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 118.11 81.915) (size 20.955 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1bc7a2f4-71a7-4492-a741-cc00441c0e51)
+    (property "Sheet name" "38kHz-Rechteckgenerator" (id 0) (at 118.11 81.2034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "38kHz-gen.kicad_sch" (id 1) (at 118.11 104.0896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 161.29 81.915) (size 20.32 22.225) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b661b6e2-1f24-46b0-9129-b25b7a66cb04)
+    (property "Sheet name" "IR-PCB" (id 0) (at 161.29 81.2034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ir-pcb.kicad_sch" (id 1) (at 161.29 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51" (page "2"))
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/dcc86378-d5e6-4cbe-9a50-d5cde9a2d045"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/9b04d430-866f-46a8-bcdc-1ffad1eba771"
+      (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/32017eb7-6954-476d-bc95-7079eb12c856"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/91722b73-cee9-4d92-b78e-77422c31c0e2"
+      (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/64fcd938-8f28-46f1-a804-74915983b270"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/f1ad70b3-2869-409f-8718-87886a97abf2"
+      (reference "#PWR0106") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/04897324-322a-4b32-8060-4670bb74da01"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/adedcbdc-5ee9-4ecb-aaf5-765ae8bed801"
+      (reference "#PWR0108") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/f5d3aa1a-5b32-4a97-954c-57f74f8e4adf"
+      (reference "#PWR0109") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/2ccd10ce-ff64-4b4c-9323-8b954f7d665d"
+      (reference "#PWR0110") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/b2c57757-c6ed-4f46-a924-b3590ddc78db"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/f36ae20b-f32f-4912-b61e-60caf82464a6"
+      (reference "#PWR0112") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/4e08a4a5-6bef-4b42-bcbf-605411e62b54"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/7e493057-5925-4f4b-ba83-fab83bb43304"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/6133e095-f61c-4745-9765-86f51dd03e92"
+      (reference "#PWR0115") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/5d489990-dc4b-4996-b0ab-41b5f8d21512"
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/7860c102-d179-446c-888f-315df08f21eb"
+      (reference "D1") (unit 1) (value "Temic K153P Emitter") (footprint "_custom:LED-quadrat-liegend")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/e4e30ae5-7819-4457-ac76-d82d05bda536"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/21b491a0-e8d0-4bcc-a64b-ddfec6f67ec9"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/5ddba45f-d8ca-4ee2-8ba5-b81aab045376"
+      (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/b02d477a-eed2-4c82-9b68-d047d0563f81"
+      (reference "J2") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_JST:JST_XH_S5B-XH-A-1_1x05_P2.50mm_Horizontal")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/727c9d6b-1559-47e6-b149-8c957d468cd9"
+      (reference "J3") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/f0f5ba40-e2f8-45ec-b6fe-8e38130d6a72"
+      (reference "Q1") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/aadd9cd7-79d1-4074-a509-e5db19dfd21c"
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/ca239327-3764-4601-bc08-1e0eab684ac3"
+      (reference "R2") (unit 1) (value "R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/88854146-e05f-4638-8e7e-e79b8557c789"
+      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/1bc7a2f4-71a7-4492-a741-cc00441c0e51/848d7757-760b-4840-ab54-8b7e41e2f78c"
+      (reference "U1") (unit 1) (value "ATtiny13A-P") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/b661b6e2-1f24-46b0-9129-b25b7a66cb04/62c65d71-fa0a-4d0d-9fae-1743e10cc02b"
+      (reference "U2") (unit 1) (value "TSOP348xx") (footprint "_custom:Vishay_MOLD-3Pin-liegend")
+    )
+  )
+)
